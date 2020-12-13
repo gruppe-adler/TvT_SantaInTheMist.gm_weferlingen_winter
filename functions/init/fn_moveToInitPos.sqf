@@ -1,8 +1,8 @@
 #include "component.hpp"
 
-private _posBlu = ["spawnPosBlu",[0,0,0]] call mitm_common_fnc_getIslandConfigEntry;
-private _posOpf = ["spawnPosOpf",_posBlu] call mitm_common_fnc_getIslandConfigEntry;
-private _posIndep = ["spawnPosIndep",_posBlu] call mitm_common_fnc_getIslandConfigEntry;
+private _posBlu = getPos blufor_insert; // ["spawnPosBlu",[0,0,0]] call mitm_common_fnc_getIslandConfigEntry;
+private _posOpf = getPos opfor_insert; // ["spawnPosOpf",_posBlu] call mitm_common_fnc_getIslandConfigEntry;
+private _posIndep = getPos indep_insert; // ["spawnPosIndep",_posBlu] call mitm_common_fnc_getIslandConfigEntry;
 
 {
     if (local _x) then {

@@ -1,9 +1,11 @@
 class mafia {
     class AllUnits {
         uniform[] = {
-            "U_I_C_Soldier_Para_2_F",
-            "U_I_C_Soldier_Para_3_F",
-            "U_I_C_Soldier_Camo_F"
+            "rds_uniform_Functionary1",
+            "rds_uniform_Functionary2"
+        };
+        vest[] = {
+            "rhsgref_chicom"
         };
         backpack[] = {
             "B_FieldPack_blk",
@@ -13,9 +15,9 @@ class mafia {
             "B_TacticalPack_oli"
         };
         headgear[] = {
-            "rhsgref_hat_M1951",
-            "rhssaf_booniehat_woodland",
-            "H_Booniehat_oli"
+            "H_Hat_grey",
+            "H_Beret_blk",
+            "H_Bandanna_gry"
         };
         primaryWeapon[] = {
             "rhs_weap_akm",

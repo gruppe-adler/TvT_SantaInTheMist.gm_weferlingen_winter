@@ -1,27 +1,19 @@
 class rebels {
     class AllUnits {
         uniform[] = {
-            "U_I_C_Soldier_Para_4_F",
-            "U_I_C_Soldier_Bandit_5_F",
-            "U_I_C_Soldier_Bandit_1_F",
-            "U_BG_Guerrilla_6_1",
-            "U_BG_Guerilla2_3",
-            "U_B_CTRG_Soldier_2_F",
-            "U_I_C_Soldier_Para_5_F"
+            "rhsgref_uniform_TLA_1",
+            "rhsgref_uniform_TLA_2"
+        };
+        vest[] = {
+            "V_BandollierB_oli"
         };
         backpack[] = {
             "rhs_sidor",
             "rhs_assault_umbts"
         };
         headgear[] = {
-            "H_Bandanna_khk",
-            "H_Bandanna_sgg",
-            "H_Bandanna_khk_hs",
-            "H_Bandanna_cbr",
-            "H_Bandanna_gry",
-            "H_Bandanna_camo",
-            "H_HeadBandage_bloody_F",
-            "H_HeadBandage_stained_F"
+            "H_Shemag_olive",
+            "H_ShemagOpen_tan"
         };
         goggles[] = {
             "",
@@ -32,16 +24,18 @@ class rebels {
             "rhs_scarf"
         };
         primaryWeapon[] = {
-            "rhs_weap_m70b1",
-            "rhs_weap_m70ab2"
+            "rhs_weap_akm",
+            "rhs_weap_akms"
         };
         primaryWeaponMagazine = "rhs_30Rnd_762x39mm";
+
         binoculars = "Binocular";
         map = "ItemMap";
         compass = "ItemCompass";
         watch = "ItemWatch";
         gps = "ItemGPS";
-        radio = "tf_anprc148jem";
+        radio = "tf_fadak";
+        nvgoggles = "";
         addItemsToUniform[] = {
             LIST_6("ACE_fieldDressing"),
             LIST_4("ACE_morphine"),
@@ -49,7 +43,7 @@ class rebels {
             "ACE_Flashlight_KSF1",
             "ACE_MapTools",
             "ACE_key_lockpick",
-            "ACE_key_indp",
+            "ACE_key_east",
             LIST_4("ACE_splint")
         };
     };
@@ -59,42 +53,42 @@ class rebels {
             addItemsToBackpack[] = {
                 LIST_7("rhs_30Rnd_762x39mm"),
                 LIST_2("rhs_mag_rdg2_white"),
-                LIST_2("rhs_mag_f1"),
+                LIST_2("rhs_mag_rgd5"),
                 LIST_4("ACE_splint")
             };
         };
 
         //Asst. Autorifleman
         class soldier_AAR_F: Soldier_F {
-            addVest = "V_Chestrig_rgr";
+            addVest = "LOP_6sh46";
             addItemsToVest[] = {
-                LIST_2("rhs_100Rnd_762x54mmR"),
-                LIST_1("ACE_EntrenchingTool")
+                LIST_7("rhs_30Rnd_762x39mm"),
+                LIST_2("rhs_mag_rgd5"),
+                LIST_1("rhs_mag_rdg2_white")
+            };
+            addItemsToBackpack[] = {
+                LIST_3("rhs_100Rnd_762x54mmR")
             };
         };
 
         //Autorifleman
         class soldier_AR_F: Soldier_F {
-            headgear = "";
-            primaryWeapon = "rhs_weap_pkm";
+            primaryWeapon = "rhs_weap_pkp";
             primaryWeaponMagazine = "rhs_100Rnd_762x54mmR";
             addItemsToBackpack[] = {
-                LIST_2("rhs_100Rnd_762x54mmR")
+                LIST_3("rhs_100Rnd_762x54mmR")
             };
         };
 
         //Combat Life Saver
         class medic_F: Soldier_F {
-            vest = "V_BandollierB_rgr";
-            backpack = "rhs_medic_bag";
+            vest = "rhs_6sh46";
             addItemsToVest[] = {
-                LIST_5("rhs_30Rnd_762x39mm")
-            };
-            addItemsToBackpack[] = {
                 LIST_15("ACE_fieldDressing"),
-                LIST_8("ACE_epinephrine"),
                 LIST_8("ACE_morphine"),
-                LIST_2("ACE_salineIV"),
+                LIST_8("ACE_epinephrine"),
+                LIST_1("ACE_salineIV_500"),
+                LIST_1("ACE_salineIV_250"),
                 LIST_15("ACE_splint")
             };
         };
@@ -106,11 +100,15 @@ class rebels {
 
         //Squad Leader
         class Soldier_SL_F: Soldier_F {
-            headgear = "grad_beret_black";
-            primaryWeapon = "rhs_weap_ak103_gp25";
+            primaryWeapon[] = {
+                "rhs_weap_akm_gp25",
+                "rhs_weap_akms_gp25"
+            };
             primaryWeaponUnderbarrelMagazine = "rhs_GRD40_White";
-            vest = "V_BandollierB_rgr";
-            addItemsToVest[] = {
+            addItemsToBackpack[] = {
+                LIST_7("rhs_30Rnd_762x39mm"),
+                LIST_2("rhs_mag_rdg2_white"),
+                LIST_2("rhs_mag_rgd5"),
                 LIST_2("rhs_GRD40_White"),
                 LIST_2("rhs_GRD40_Red")
             };
@@ -118,7 +116,13 @@ class rebels {
 
         //Team Leader
         class Soldier_TL_F: Soldier_SL_F {
-            headgear = "grad_beret_green";
+
+        };
+    };
+
+    class Rank {
+        class LIEUTENANT {
+            headgear = "";
         };
     };
 };
