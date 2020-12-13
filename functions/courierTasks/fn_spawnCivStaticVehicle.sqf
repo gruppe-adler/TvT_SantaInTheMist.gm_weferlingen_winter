@@ -27,6 +27,7 @@ private _veh = createVehicle [selectRandom ([_civCfg,"vehicles",[]] call BIS_fnc
 [{!isNull (_this select 0)}, {
     params ["_veh","_roadDir","_chosenDirection","_vehPos"];
     _veh setDir _roadDir + (90 + 90*_chosenDirection);
+    _vehPos set [2,1];
     _veh setPos _vehPos;
     _veh setVelocity [0,0,1];
     _veh lock 2;

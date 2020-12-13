@@ -46,7 +46,7 @@ class mafia {
     class Type {
         //Rifleman
         class Soldier_F {
-            addItemsToBackpack[] = {
+            addItemsToVest[] = {
                 LIST_7("rhs_30Rnd_762x39mm"),
                 LIST_2("rhs_mag_rdg2_white"),
                 LIST_2("rhs_mag_rgd5"),

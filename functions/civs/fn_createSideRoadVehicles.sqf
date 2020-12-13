@@ -26,7 +26,7 @@ private _fnc_nearbyVehiclePositions = {
 private _fnc_isSafe = {
     params ["_pos"];
     // getPos, 0, 0, 2, 0, 0.7, 0, [], [getPos player, getPos player]
-    !(([_pos, 0, 0, 2, 0, 0.6, 0, "",[[0,0,0],[0,0,0]]] call BIS_fnc_findSafePos) isEqualTo [0,0,0])
+    !(_pos isFlatEmpty  [5, -1, 0.1, 15, -1, false, objNull] isEqualTo [])
 };
 
 
@@ -87,6 +87,7 @@ while {count _roads > 0 && count _thesePositions < _vehiclesToCreate} do {
             [{!isNull (_this select 0)}, {
                 params ["_veh","_roadDir","_chosenDirection","_vehPos","_marker"];
                 _veh setDir _roadDir + (90 + 90*_chosenDirection);
+                _vehPos set [2,1];
                 _veh setPos _vehPos;
                 _veh setVelocity [0,0,1];
                 _veh lock 2;

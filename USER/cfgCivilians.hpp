@@ -148,22 +148,12 @@ class cfgCivilians {
         };
 
         vehicles[] = {
-            "C_Van_01_fuel_F",
-            "C_Truck_02_transport_F",
-            "C_Truck_02_covered_F",
-            "C_Van_01_transport_F",
             "RDS_Gaz24_Civ_03",
             "RDS_Gaz24_Civ_01",
             "RDS_Gaz24_Civ_02",
-            "RDS_S1203_Civ_01",
-            "RDS_Zetor6945_Base",
             "RDS_Lada_Civ_01",
             "RDS_Lada_Civ_03",
-            "RDS_Lada_Civ_02",
-            "RDS_tt650_Civ_01",
-            "RDS_JAWA353_Civ_01",
-            "RHS_Ural_Civ_01",
-            "RHS_Ural_Open_Civ_02"
+            "RDS_Lada_Civ_02"
         };
     };
 
