@@ -16,12 +16,12 @@ if (_vehicleMode) then {
     private _vehicle = vehicle _unit;
 
     if (_vehicle isKindOf "RDS_Lada_Base") then {
-         _briefcase attachTo [_vehicle,[-0.0866699,0.10498,0.414307]];
-         _briefcase setVectorDirAndUp ([vectorDirVisual _vehicle, vectorUpVisual _vehicle, 0, 0, 90] call BIS_fnc_transformVectorDirAndUp);
+         _briefcase attachTo [_vehicle,[-0.0866699,0.10498,0.35]];
+         _briefcase setVectorDirAndUp ([[vectorDirVisual _vehicle, vectorUpVisual _vehicle], 0, 90, 0] call BIS_fnc_transformVectorDirAndUp);
     } else {
         if (_vehicle isKindOf "RDS_Gaz24_Base") then {
-             _briefcase attachTo [_vehicle,[-0.0800781,0.290039,0.33226]];
-             _briefcase setVectorDirAndUp ([vectorDirVisual _vehicle, vectorUpVisual _vehicle, 0, 0, 90] call BIS_fnc_transformVectorDirAndUp);
+             _briefcase attachTo [_vehicle,[-0.0800781,0.290039,0.36]];
+             _briefcase setVectorDirAndUp ([[vectorDirVisual _vehicle, vectorUpVisual _vehicle], 0, 90, 0] call BIS_fnc_transformVectorDirAndUp);
         } else {
             // fallback
             _briefcase attachTo [_vehicle,[0,0,-100]];
@@ -30,7 +30,7 @@ if (_vehicleMode) then {
 
 } else {
     _briefcase attachTo [_unit,[-0.03,-0.5,0],"spine3"];
-    _briefcase setVectorDirAndUp ([[[0,1,0],[0,0,1]], 0, -20, 10] call BIS_fnc_transformVectorDirAndUp);
+    _briefcase setVectorDirAndUp ([[vectorDirVisual _unit, vectorUpVisual _unit], 0, -20, 10] call BIS_fnc_transformVectorDirAndUp);
 };
 // _briefcase setVectorDirAndUp [[1,0,0],[0,0,1]];
 

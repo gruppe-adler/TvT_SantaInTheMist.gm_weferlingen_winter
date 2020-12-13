@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=468;
+		nextID=477;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={473.19489,30.447298,3257.2358};
-		dir[]={0.82864445,-0.5134995,-0.22290283};
-		up[]={0.49588233,0.85808367,-0.13339052};
-		aside[]={-0.25976485,-1.8131686e-007,-0.96568245};
+		pos[]={2392.4146,96.411217,4956.4194};
+		dir[]={-0.38769642,-0.67313236,-0.62975937};
+		up[]={-0.35288936,0.7395196,-0.5732187};
+		aside[]={-0.85157061,4.2957254e-008,0.52425045};
 	};
 };
 binarizationWanted=0;
@@ -60,13 +60,14 @@ addons[]=
 	"rhs_c_troops",
 	"A3_Structures_F_Enoch_Signs_Warnings",
 	"A3_Structures_F_Enoch_Decals_Horizontal",
-	"A3_Props_F_Enoch_Civilian_Forest"
+	"A3_Props_F_Enoch_Civilian_Forest",
+	"gm_plants_trees"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=33;
+		items=34;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -288,6 +289,13 @@ class AddonsMetaData
 			name="Arma 3 Contact Platform - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
+		};
+		class Item33
+		{
+			className="gm_plants_trees";
+			name="gm_plants_trees";
+			author="Global Mobilization";
+			url="global-mobilization.com";
 		};
 	};
 };
@@ -4566,7 +4574,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=131;
+		items=139;
 		class Item0
 		{
 			dataType="Marker";
@@ -5038,7 +5046,6 @@ class Mission
 					class Attributes
 					{
 						description="Squad Leader@Alpha";
-						isPlayer=1;
 						isPlayable=1;
 					};
 					id=38;
@@ -9069,8 +9076,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4175.8691,3.7537477,3958.731};
-						angles[]={0,1.171157,0};
+						position[]={4175.8691,3.7537484,3958.731};
+						angles[]={0,1.1711508,0};
 					};
 					side="Civilian";
 					flags=7;
@@ -9079,11 +9086,11 @@ class Mission
 						rank="LIEUTENANT";
 						name="mitm_courier";
 						description="The Courier@Courier";
+						isPlayer=1;
 						isPlayable=1;
 					};
 					id=99;
 					type="C_man_p_fugitive_F";
-					atlOffset=-7.1525574e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -9232,7 +9239,6 @@ class Mission
 			{
 			};
 			id=98;
-			atlOffset=-7.1525574e-007;
 		};
 		class Item22
 		{
@@ -10334,7 +10340,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={2292.2656,45.558243,7370.8125};
+				position[]={2297.6167,45.555225,7369.4312};
 				angles[]={0.0075011365,0,6.2806959};
 			};
 			name="independent_exfil";
@@ -10360,13 +10366,13 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={6966.8721,39.740696,6926.1191};
+				position[]={6978.0601,39.978355,6928.353};
 			};
 			name="opfor_exfil";
 			init="call{[this, east] call mitm_template_fnc_createExfilPoint;}";
 			id=197;
 			type="Logic";
-			atlOffset=0.58523178;
+			atlOffset=0.58524323;
 		};
 		class Item32
 		{
@@ -13584,6 +13590,129 @@ class Mission
 			};
 			id=461;
 			type="Land_DeerSkeleton_pile_01_F";
+		};
+		class Item131
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4727.3364,16.149921,1054.5059};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=469;
+			type="land_gm_inset_lightchain_picea_01";
+		};
+		class Item132
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4727.3833,16.04582,1054.4546};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=470;
+			type="gm_t_picea_abies_01_winter";
+		};
+		class Item133
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6977.98,42.741959,6928.9248};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=471;
+			type="land_gm_inset_lightchain_picea_01";
+		};
+		class Item134
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6978.0269,42.637665,6928.874};
+				angles[]={6.2631865,0,0.017500184};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=472;
+			type="gm_t_picea_abies_01_winter";
+		};
+		class Item135
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2298.2732,48.896347,7368.9043};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=473;
+			type="land_gm_inset_lightchain_picea_01";
+		};
+		class Item136
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2298.3201,48.792515,7368.8535};
+				angles[]={0.0075011365,0,6.2806959};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=474;
+			type="gm_t_picea_abies_01_winter";
+		};
+		class Item137
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2379.5188,79.623611,4943.7261};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=475;
+			type="land_gm_inset_lightchain_picea_01";
+		};
+		class Item138
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2379.5657,79.516113,4943.6743};
+				angles[]={6.2581916,0,6.2382159};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=476;
+			type="gm_t_picea_abies_01_winter";
 		};
 	};
 	class Connections
