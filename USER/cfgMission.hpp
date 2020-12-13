@@ -33,10 +33,10 @@ jipToSpectatorTime = 1800;                      // time after which JIP players 
 class civVehicles {
     randomFuel[] = {0.15,0.35};
 
-    carLocationAmountFactor = 1;
+    carLocationAmountFactor = 10;
     carLocationMinDist = 30;
 
-    carRoadAmountFactor = 1;
+    carRoadAmountFactor = 10;
     carRoadMinDist = 300;
 
     boatCoastAmountFactor = 0;

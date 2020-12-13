@@ -29,7 +29,7 @@ if (_vehicleMode) then {
     };
 
 } else {
-    _briefcase attachTo [_unit,[-0.03,-0.5,0],"spine3"];
+    _briefcase attachTo [_unit,[-0.03,-0.3,0],"spine3"];
     _briefcase setVectorDirAndUp ([[vectorDirVisual _unit, vectorUpVisual _unit], 0, -20, 10] call BIS_fnc_transformVectorDirAndUp);
 };
 // _briefcase setVectorDirAndUp [[1,0,0],[0,0,1]];
