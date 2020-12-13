@@ -16,6 +16,7 @@ private _civLoadout = _civ select MITM_ISLANDPARAM_ISWOODLAND;
 ["CIV_F",_civLoadout] call GRAD_Loadout_fnc_FactionSetLoadout;
 
 // set courier randomization manually, because it is island dependent
+/*
 private _islandType = "russian";
 {
     _x params ["_slotName","_civConfigTypeName"];
@@ -33,3 +34,4 @@ private _islandType = "russian";
 
     false
 } count [["uniform","clothes"],["headgear","headgear"]];
+*/

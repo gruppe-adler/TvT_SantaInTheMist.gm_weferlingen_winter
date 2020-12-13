@@ -40,11 +40,10 @@ class courier {
             addItemsToVest[] = {};
             addItemsToBackpack[] = {};
         };
-
-        class Rank {
-            class LIEUTENANT {
-                uniform = "xmas_santa_uniform";
-            };
+    };
+    class Rank {
+        class LIEUTENANT {
+            uniform = "xmas_santa_uniform";
         };
     };
 };
