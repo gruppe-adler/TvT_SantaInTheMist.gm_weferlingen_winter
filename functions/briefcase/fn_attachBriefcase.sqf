@@ -17,11 +17,11 @@ if (_vehicleMode) then {
 
     if (_vehicle isKindOf "RDS_Lada_Base") then {
          _briefcase attachTo [_vehicle,[-0.0866699,0.10498,0.414307]];
-         _briefcase setVectorDirAndUp [[[0,1,0],[0,0,1]], 0, 0, 90] call BIS_fnc_transformVectorDirAndUp;
+         _briefcase setVectorDirAndUp ([vectorDirVisual _vehicle, vectorUpVisual _vehicle, 0, 0, 90] call BIS_fnc_transformVectorDirAndUp);
     } else {
         if (_vehicle isKindOf "RDS_Gaz24_Base") then {
              _briefcase attachTo [_vehicle,[-0.0800781,0.290039,0.33226]];
-             _briefcase setVectorDirAndUp [[[0,1,0],[0,0,1]], 0, 0, 90] call BIS_fnc_transformVectorDirAndUp;
+             _briefcase setVectorDirAndUp ([vectorDirVisual _vehicle, vectorUpVisual _vehicle, 0, 0, 90] call BIS_fnc_transformVectorDirAndUp);
         } else {
             // fallback
             _briefcase attachTo [_vehicle,[0,0,-100]];

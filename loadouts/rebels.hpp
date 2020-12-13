@@ -8,7 +8,6 @@ class rebels {
             "V_BandollierB_oli"
         };
         backpack[] = {
-            "rhs_sidor",
             "rhs_assault_umbts"
         };
         headgear[] = {
@@ -16,12 +15,7 @@ class rebels {
             "H_ShemagOpen_tan"
         };
         goggles[] = {
-            "",
-            "",
-            "",
-            "",
-            "",
-            "rhs_scarf"
+            ""
         };
         primaryWeapon[] = {
             "rhs_weap_akm",
@@ -34,7 +28,7 @@ class rebels {
         compass = "ItemCompass";
         watch = "ItemWatch";
         gps = "ItemGPS";
-        radio = "tf_fadak";
+        radio = "tfar_anprc152";
         nvgoggles = "";
         addItemsToUniform[] = {
             LIST_6("ACE_fieldDressing"),

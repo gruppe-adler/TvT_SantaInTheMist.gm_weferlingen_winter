@@ -5,6 +5,9 @@ class special_forces_w {
             "SMA_UNIFORMS_GREEN"
         };
         vest = "V_BandollierB_rgr";
+        backpack[] = {
+            "rhs_sidor"
+        };
         headgear[] = {
             "rds_Woodlander_cap1",
             "rds_Woodlander_cap2",
@@ -12,9 +15,7 @@ class special_forces_w {
             "rds_Woodlander_cap4"
         };
         goggles[] = {
-            "",
-            "rhs_googles_black",
-            "rhs_googles_clear"
+            ""
         };
         primaryWeapon[] = {
             "rhs_weap_akm",
@@ -26,7 +27,7 @@ class special_forces_w {
         compass = "ItemCompass";
         watch = "ItemWatch";
         gps = "ItemGPS";
-        radio = "tf_fadak";
+        radio = "tfar_anprc154";
         nvgoggles = "";
         addItemsToUniform[] = {
             LIST_6("ACE_fieldDressing"),

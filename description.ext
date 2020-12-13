@@ -18,7 +18,7 @@ class Header
 };
 
 //LOAD SCREEN ==================================================================
-onLoadName = "MONEY IN THE MIST";
+onLoadName = "SANTA IN THE MIST";
 onLoadMission = "";
 author = "McDiod für Gruppe Adler";
 loadScreen = "data\loadpic.paa";

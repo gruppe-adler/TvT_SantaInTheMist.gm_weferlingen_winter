@@ -3,7 +3,7 @@
 private _briefcase = mitm_briefcase;
 
 
-private _action = ["mitm_briefcase_pickup","Pick up","",{
+private _action = ["mitm_briefcase_pickup","Pick up Sack","",{
 
     params ["_briefcase","_caller"];
 
@@ -16,7 +16,7 @@ private _action = ["mitm_briefcase_pickup","Pick up","",{
 
 
 
-_action = ["mitm_briefcase_drop","Drop Briefcase","",{
+_action = ["mitm_briefcase_drop","Drop Sack","",{
     params ["_caller"];
 
     // hint format ["drop %1", _caller];
@@ -28,7 +28,7 @@ _action = ["mitm_briefcase_drop","Drop Briefcase","",{
 
 
 
-_action = ["mitm_briefcase_give","Give Briefcase","",{
+_action = ["mitm_briefcase_give","Give Sack","",{
     params ["_unit","_caller"];
 
     [_unit] remoteExec ["mitm_briefcase_fnc_attachBriefcase",2,false];

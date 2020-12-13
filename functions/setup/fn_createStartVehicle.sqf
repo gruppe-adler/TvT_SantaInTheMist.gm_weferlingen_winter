@@ -46,6 +46,7 @@ for [{_i=0}, {_i<_vehicleAmount}, {_i=_i+1}] do {
 
     _searchPos = _searchPos getPos [12,_dir];
 
+    diag_log format ["trying to create start vehicle %1", _sideVehicle];
     private _veh = createVehicle [_sideVehicle,_spawnPos,[],0,"NONE"];
     _veh setVariable ["BIS_enableRandomization",false];
     _veh setDir _dir;

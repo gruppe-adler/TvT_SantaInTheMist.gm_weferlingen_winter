@@ -9,15 +9,15 @@ class mafia {
         };
         backpack[] = {
             "B_FieldPack_blk",
-            "B_FieldPack_oli",
-            "B_FieldPack_khk",
-            "B_TacticalPack_blk",
-            "B_TacticalPack_oli"
+            "B_TacticalPack_blk"
         };
         headgear[] = {
             "H_Hat_grey",
             "H_Beret_blk",
             "H_Bandanna_gry"
+        };
+        goggles[] = {
+            ""
         };
         primaryWeapon[] = {
             "rhs_weap_akm",
@@ -30,7 +30,7 @@ class mafia {
         compass = "ItemCompass";
         watch = "ItemWatch";
         gps = "ItemGPS";
-        radio = "tf_fadak";
+        radio = "tfar_fadak";
         nvgoggles = "";
         addItemsToUniform[] = {
             LIST_6("ACE_fieldDressing"),

@@ -34,6 +34,7 @@ while {count _thesePositions < _boatsToCreate && {_loopCount < _boatsToCreate * 
         _type = selectRandom _availableTypes;
         _thesePositions pushBack _coastPos;
         _marker = if (MITM_MISSIONPARAM_DEBUGMODE) then {[_coastPos,count _thesePositions] call _fnc_createMarker} else {""};
+        diag_log format ["trying to create boat %1", _type];
         _veh = createVehicle [_type,[0,0,0],[],0,"CAN_COLLIDE"];
 
         [{!isNull (_this select 0)}, {

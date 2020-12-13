@@ -83,7 +83,9 @@ while {count _roads > 0 && count _thesePositions < _vehiclesToCreate} do {
             _type = selectRandom _availableTypes;
             _thesePositions pushBack _vehPos;
             mitm_civs_vehiclePositions pushBack _vehPos;
+            diag_log format ["will create %1 vehicle", _type];
             _veh = createVehicle [_type,[0,0,0],[],0,"CAN_COLLIDE"];
+            diag_log format ["created %1 vehicle", _type];
             [{!isNull (_this select 0)}, {
                 params ["_veh","_roadDir","_chosenDirection","_vehPos","_marker"];
                 _veh setDir _roadDir + (90 + 90*_chosenDirection);
