@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=477;
+		nextID=487;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={2408.4822,96.411217,4961.1719};
-		dir[]={-0.57871896,-0.56973433,-0.58352637};
-		up[]={-0.40119666,0.82182544,-0.40452853};
-		aside[]={-0.7100293,-1.1439261e-007,0.7041809};
+		pos[]={4735.0537,18.843552,1048.1008};
+		dir[]={-0.78497237,-0.56036741,0.26424968};
+		up[]={-0.53108788,0.82824033,0.17878281};
+		aside[]={0.31904757,-5.500624e-008,0.94775087};
 	};
 };
 binarizationWanted=0;
@@ -35,6 +35,7 @@ addons[]=
 	"po_factions_me",
 	"A3_Modules_F",
 	"rds_A2_Civilians",
+	"Desert",
 	"gm_vehicles_land_wheeled_typ1_ge_civ_typ1",
 	"A3_Soft_F_Orange_Van_02",
 	"A3_Structures_F_Enoch_Military_Training",
@@ -67,7 +68,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=34;
+		items=35;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -139,158 +140,163 @@ class AddonsMetaData
 		};
 		class Item10
 		{
+			className="Desert";
+			name="Desert";
+		};
+		class Item11
+		{
 			className="gm_vehicles_land_wheeled_typ1_ge_civ_typ1";
 			name="gm_vehicles_land_wheeled_typ1_ge_civ_typ1";
 			author="Global Mobilization";
 			url="global-mobilization.com";
 		};
-		class Item11
+		class Item12
 		{
 			className="A3_Soft_F_Orange";
 			name="Arma 3 Orange - Unarmored Land Vehicles";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item12
+		class Item13
 		{
 			className="A3_Structures_F_Enoch_Military";
 			name="Arma 3 Contact Platform - Military Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item13
+		class Item14
 		{
 			className="A3_Structures_F";
 			name="Arma 3 - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item14
+		class Item15
 		{
 			className="gm_objects_fortification";
 			name="gm_objects_fortification";
 			author="Global Mobilization";
 			url="global-mobilization.com";
 		};
-		class Item15
+		class Item16
 		{
 			className="A3_Structures_F_Kart";
 			name="Arma 3 Karts - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item16
+		class Item17
 		{
 			className="A3_Props_F_Enoch";
 			name="Arma 3 Contact Platform - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item17
+		class Item18
 		{
 			className="CUP_Misc3_Config";
 			name="CUP_Misc3_Config";
 		};
-		class Item18
+		class Item19
 		{
 			className="gm_characters_ge_characters";
 			name="gm_characters_ge_characters";
 			author="Global Mobilization";
 			url="global-mobilization.com";
 		};
-		class Item19
+		class Item20
 		{
 			className="gm_structures_euro_80";
 			name="gm_structures_euro_80";
 			author="Global Mobilization";
 			url="global-mobilization.com";
 		};
-		class Item20
+		class Item21
 		{
 			className="rds_a2port_cman";
 			name="RDS Civilian Pack Characters";
 			author="reyhard";
 			url="https://forums.bistudio.com/topic/170165-rds-a2-civilian-pack/";
 		};
-		class Item21
+		class Item22
 		{
 			className="A3_Weapons_F";
 			name="Arma 3 Alpha - Weapons and Accessories";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item22
+		class Item23
 		{
 			className="gm_characters_gc_characters";
 			name="gm_characters_gc_characters";
 			author="Global Mobilization";
 			url="global-mobilization.com";
 		};
-		class Item23
+		class Item24
 		{
 			className="CUP_CASigns2";
 			name="CUP_CASigns2";
 		};
-		class Item24
+		class Item25
 		{
 			className="A3_Props_F_Orange";
 			name="Arma 3 Orange - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item25
+		class Item26
 		{
 			className="acex_sitting";
 			name="ACEX - Sitting";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item26
+		class Item27
 		{
 			className="A3_Structures_F_Heli";
 			name="Arma 3 Helicopters - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item27
+		class Item28
 		{
 			className="CUP_Editor_Structures_Config";
 			name="CUP_Editor_Structures_Config";
 		};
-		class Item28
+		class Item29
 		{
 			className="CUP_CAStructures_E_Misc_Misc_Interier";
 			name="CUP_CAStructures_E_Misc_Misc_Interier";
 		};
-		class Item29
+		class Item30
 		{
 			className="gm_characters_gc_civilians";
 			name="gm_characters_gc_civilians";
 			author="Global Mobilization";
 			url="global-mobilization.com";
 		};
-		class Item30
+		class Item31
 		{
 			className="gm_weapons_items";
 			name="gm_weapons_items";
 			author="Global Mobilization";
 			url="global-mobilization.com";
 		};
-		class Item31
+		class Item32
 		{
 			className="rhs_c_troops";
 			name="AFRF Infantry & Equipment";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item32
+		class Item33
 		{
 			className="A3_Structures_F_Enoch";
 			name="Arma 3 Contact Platform - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item33
+		class Item34
 		{
 			className="gm_plants_trees";
 			name="gm_plants_trees";
@@ -4574,7 +4580,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=139;
+		items=149;
 		class Item0
 		{
 			dataType="Marker";
@@ -13605,6 +13611,7 @@ class Mission
 			};
 			id=469;
 			type="land_gm_inset_lightchain_picea_01";
+			atlOffset=9.5367432e-007;
 		};
 		class Item132
 		{
@@ -13620,6 +13627,7 @@ class Mission
 			};
 			id=470;
 			type="gm_t_picea_abies_01_winter";
+			atlOffset=9.5367432e-007;
 		};
 		class Item133
 		{
@@ -13713,6 +13721,354 @@ class Mission
 			};
 			id=476;
 			type="gm_t_picea_abies_01_winter";
+		};
+		class Item139
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2215.1753,32.207664,2896.3035};
+				angles[]={0,5.9449229,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+				init="call{if (isServer) then { createSoundSource [""music1"", position this, [], 0]; };}";
+			};
+			id=477;
+			type="land_gm_euro_furniture_radio_01";
+			atlOffset=0.81951523;
+		};
+		class Item140
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4903.7563,17.200827,2275.3293};
+				angles[]={0,1.787095,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="call{if (isServer) then { createSoundSource [""music2"", position this, [], 0]; };}";
+			};
+			id=478;
+			type="land_gm_euro_furniture_radio_01";
+			atlOffset=7.6293945e-005;
+		};
+		class Item141
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5998.4575,8.9962406,3537.3135};
+				angles[]={6.2091837,1.787095,6.2251706};
+			};
+			side="Empty";
+			class Attributes
+			{
+				init="call{if (isServer) then { createSoundSource [""music3"", position this, [], 0]; };}";
+			};
+			id=479;
+			type="land_gm_euro_furniture_radio_01";
+			atlOffset=1.3780003;
+		};
+		class Item142
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6542.1255,7.9470873,5094.8345};
+				angles[]={0,4.9526682,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+				init="call{if (isServer) then { createSoundSource [""music4"", position this, [], 0]; };}";
+				createAsSimpleObject=1;
+				disableSimulation=1;
+			};
+			id=480;
+			type="land_gm_euro_furniture_radio_01";
+			atlOffset=1.1645799;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item143
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5252.8066,17.1632,5836.9072};
+				angles[]={0,2.8957281,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="call{if (isServer) then { createSoundSource [""music5"", position this, [], 0]; };}";
+				createAsSimpleObject=1;
+				disableSimulation=1;
+			};
+			id=481;
+			type="land_gm_euro_furniture_radio_01";
+			atlOffset=0.00050926208;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item144
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3738.8501,25.82362,5523.9595};
+				angles[]={0,3.593982,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="call{if (isServer) then { createSoundSource [""music6"", position this, [], 0]; };}";
+				createAsSimpleObject=1;
+				disableSimulation=1;
+			};
+			id=482;
+			type="land_gm_euro_furniture_radio_01";
+			atlOffset=0.00087547302;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item145
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2378.8733,76.305176,4943.3916};
+				angles[]={6.2581921,3.1716297,6.2382083};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="call{if (isServer) then { createSoundSource [""music7"", position this, [], 0]; };}";
+				createAsSimpleObject=1;
+				disableSimulation=1;
+			};
+			id=483;
+			type="land_gm_euro_furniture_radio_01";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item146
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2298.5496,45.554321,7369.1992};
+				angles[]={0.0075011365,3.1716297,6.2806959};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="call{if (isServer) then { createSoundSource [""music7"", position this, [], 0]; };}";
+				createAsSimpleObject=1;
+				disableSimulation=1;
+			};
+			id=484;
+			type="land_gm_euro_furniture_radio_01";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item147
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6977.9463,39.391636,6928.3945};
+				angles[]={6.2631865,3.1716297,0.017500184};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="call{if (isServer) then { createSoundSource [""music7"", position this, [], 0]; };}";
+				createAsSimpleObject=1;
+				disableSimulation=1;
+			};
+			id=485;
+			type="land_gm_euro_furniture_radio_01";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item148
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4728.6982,8.6404009,1059.3859};
+				angles[]={0.087277152,3.1716297,0.0099949092};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="call{if (isServer) then { createSoundSource [""music7"", position this, [], 0]; };}";
+				createAsSimpleObject=1;
+				disableSimulation=1;
+			};
+			id=486;
+			type="land_gm_euro_furniture_radio_01";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 	};
 	class Connections

@@ -142,3 +142,104 @@ class CfgNotifications
         priority = 0;
     };
 };
+
+
+
+class CfgSFX
+{
+    sounds[] = {};
+     
+    class music1
+    {
+        name = "music1";
+        sounds[]={sfxsound};
+        sfxsound[]={"data\alliwant.ogg",35,1,150,1,1,1,0};
+        empty[]= {"",0,0,0,0,0,0,0};
+    };
+
+    class music2
+    {
+        name = "music2";
+        sounds[]={sfxsound};
+        sfxsound[]={"data\jb.ogg",35,1,150,1,1,1,0};
+        empty[]= {"",0,0,0,0,0,0,0};
+    };
+
+    class music3
+    {
+        name = "music3";
+        sounds[]={sfxsound};
+        sfxsound[]={"data\juljul.ogg",35,1,150,1,1,1,0};
+        empty[]= {"",0,0,0,0,0,0,0};
+    };
+
+    class music4
+    {
+        name = "music4";
+        sounds[]={sfxsound};
+        sfxsound[]={"data\lastchr.ogg",35,1,150,1,1,1,0};
+        empty[]= {"",0,0,0,0,0,0,0};
+    };
+
+    class music5
+    {
+        name = "music5";
+        sounds[]={sfxsound};
+        sfxsound[]={"data\ohdu.ogg",35,1,150,1,1,1,0};
+        empty[]= {"",0,0,0,0,0,0,0};
+    };
+
+    class music6
+    {
+        name = "music6";
+        sounds[]={sfxsound};
+        sfxsound[]={"data\santababy.ogg",35,1,150,1,1,1,0};
+        empty[]= {"",0,0,0,0,0,0,0};
+    };
+
+    class music7
+    {
+        name = "music7";
+        sounds[]={sfxsound};
+        sfxsound[]={"data\warover.ogg",35,1,150,1,1,1,0};
+        empty[]= {"",0,0,0,0,0,0,0};
+    };
+};
+
+class CfgVehicles
+{
+    class music1 // class name to be used with createSoundSource
+    {
+        sound = "music1"; // reference to CfgSFX class
+    };
+
+    class music2 // class name to be used with createSoundSource
+    {
+        sound = "music2"; // reference to CfgSFX class
+    };
+
+    class music3 // class name to be used with createSoundSource
+    {
+        sound = "music3"; // reference to CfgSFX class
+    };
+
+    class music4 // class name to be used with createSoundSource
+    {
+        sound = "music4"; // reference to CfgSFX class
+    };
+
+    class music5 // class name to be used with createSoundSource
+    {
+        sound = "music5"; // reference to CfgSFX class
+    };
+
+    class music6 // class name to be used with createSoundSource
+    {
+        sound = "music6"; // reference to CfgSFX class
+    };
+
+    class music7 // class name to be used with createSoundSource
+    {
+        sound = "music7"; // reference to CfgSFX class
+    };
+};
