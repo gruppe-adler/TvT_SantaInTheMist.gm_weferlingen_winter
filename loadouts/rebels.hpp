@@ -21,7 +21,7 @@ class rebels {
             "rhs_weap_akm",
             "rhs_weap_akms"
         };
-        primaryWeaponMagazine = "rhs_30Rnd_762x39mm";
+        primaryWeaponMagazine = "hlc_30Rnd_762x39_m_ak";
 
         binoculars = "Binocular";
         map = "ItemMap";
@@ -37,15 +37,17 @@ class rebels {
             "ACE_Flashlight_KSF1",
             "ACE_MapTools",
             "ACE_key_lockpick",
-            "ACE_key_east",
-            LIST_4("ACE_splint")
+            "ACE_key_indp",
+            LIST_4("ACE_splint"),
+            LIST_1("ACE_salineIV"),
+            "ACE_surgicalKit"
         };
     };
     class Type {
         //Rifleman
         class Soldier_F {
             addItemsToVest[] = {
-                LIST_7("rhs_30Rnd_762x39mm"),
+                LIST_7("hlc_30Rnd_762x39_m_ak"),
                 LIST_2("rhs_mag_rdg2_white"),
                 LIST_2("rhs_mag_rgd5"),
                 LIST_4("ACE_splint")
@@ -56,7 +58,7 @@ class rebels {
         class soldier_AAR_F: Soldier_F {
             addVest = "LOP_6sh46";
             addItemsToVest[] = {
-                LIST_7("rhs_30Rnd_762x39mm"),
+                LIST_7("hlc_30Rnd_762x39_m_ak"),
                 LIST_2("rhs_mag_rgd5"),
                 LIST_1("rhs_mag_rdg2_white")
             };
@@ -100,7 +102,7 @@ class rebels {
             };
             primaryWeaponUnderbarrelMagazine = "rhs_GRD40_White";
             addItemsToBackpack[] = {
-                LIST_7("rhs_30Rnd_762x39mm"),
+                LIST_7("hlc_30Rnd_762x39_m_ak"),
                 LIST_2("rhs_mag_rdg2_white"),
                 LIST_2("rhs_mag_rgd5"),
                 LIST_2("rhs_GRD40_White"),

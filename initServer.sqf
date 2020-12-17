@@ -3,3 +3,6 @@
 }] call BIS_fnc_addStackedEventHandler;*/
 
 ["Initialize", [true]] call BIS_fnc_dynamicGroups;
+
+// manually overriding weather
+0 setFog 0.8;

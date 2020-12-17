@@ -149,59 +149,66 @@ class CfgSFX
 {
     sounds[] = {};
      
+    // works
     class music1
     {
         name = "music1";
         sounds[]={sfxsound};
-        sfxsound[]={"data\alliwant.ogg",35,1,150,1,1,1,0};
+        sfxsound[]={"data\alliwant.ogg",35,1,150,1,1,1,1};
         empty[]= {"",0,0,0,0,0,0,0};
     };
 
+    // works
     class music2
     {
         name = "music2";
         sounds[]={sfxsound};
-        sfxsound[]={"data\jb.ogg",35,1,150,1,1,1,0};
+        sfxsound[]={"data\jb.ogg",5,1,150,1,1,1,1};
         empty[]= {"",0,0,0,0,0,0,0};
     };
 
+    // doesnotwork
     class music3
     {
         name = "music3";
         sounds[]={sfxsound};
-        sfxsound[]={"data\juljul.ogg",35,1,150,1,1,1,0};
+        sfxsound[]={"data\juljul2.ogg",5,1,150,1,1,1,1};
         empty[]= {"",0,0,0,0,0,0,0};
     };
 
+    // works
     class music4
     {
         name = "music4";
         sounds[]={sfxsound};
-        sfxsound[]={"data\lastchr.ogg",35,1,150,1,1,1,0};
+        sfxsound[]={"data\lastchr.ogg",5,1,150,1,1,1,1};
         empty[]= {"",0,0,0,0,0,0,0};
     };
 
+    // works
     class music5
     {
         name = "music5";
         sounds[]={sfxsound};
-        sfxsound[]={"data\ohdu.ogg",35,1,150,1,1,1,0};
+        sfxsound[]={"data\ohdu.ogg",5,1,150,1,1,1,1};
         empty[]= {"",0,0,0,0,0,0,0};
     };
 
+    // doesnotwork
     class music6
     {
         name = "music6";
         sounds[]={sfxsound};
-        sfxsound[]={"data\santababy.ogg",35,1,150,1,1,1,0};
+        sfxsound[]={"data\santababy2.ogg",5,1,150,1,1,1,1};
         empty[]= {"",0,0,0,0,0,0,0};
     };
 
+    // works
     class music7
     {
         name = "music7";
         sounds[]={sfxsound};
-        sfxsound[]={"data\warover.ogg",35,1,150,1,1,1,0};
+        sfxsound[]={"data\warover.ogg",5,1,150,1,1,1,1};
         empty[]= {"",0,0,0,0,0,0,0};
     };
 };
