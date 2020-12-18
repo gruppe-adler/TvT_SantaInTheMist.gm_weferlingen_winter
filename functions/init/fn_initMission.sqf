@@ -2,7 +2,7 @@
 
 MITM_ISLANDPARAM_ISWOODLAND = false;
 
-[] call mitm_init_fnc_disablePlayableUnits;
+// [] call mitm_init_fnc_disablePlayableUnits;
 [] call mitm_init_fnc_setMissionParams;
 
 // open / close map
@@ -23,7 +23,9 @@ if (hasInterface) then {
 
     //setup
     [] call mitm_setup_fnc_createBriefing;
-    [] call mitm_init_fnc_moveToInitPos;
+    if ((["teleportPlayersToStart",1] call EFUNC(common,getMissionConfigEntry)) == 1) then {
+        [] call mitm_init_fnc_moveToInitPos;
+    };
     [] call mitm_setup_fnc_setTime;
     [] call mitm_setup_fnc_setWeather;
     [] call mitm_setup_fnc_setMapRespawnPos;
