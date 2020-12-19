@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={4183.0903,10.893507,3970.4092};
-		dir[]={-0.29552951,-0.4503614,-0.84252292};
-		up[]={-0.14906837,0.89284611,-0.42497712};
-		aside[]={-0.94363767,-1.7846469e-007,0.33099589};
+		pos[]={459.37555,40.696842,3255.2019};
+		dir[]={0.78701341,-0.60087979,-0.13993825};
+		up[]={0.59160966,0.79933059,-0.1051937};
+		aside[]={-0.17506549,3.5885023e-008,-0.98456866};
 	};
 };
 binarizationWanted=0;
@@ -354,7 +354,7 @@ class CustomAttributes
 								};
 								class value
 								{
-									items=75;
+									items=77;
 									class Item0
 									{
 										class data
@@ -1405,6 +1405,34 @@ class CustomAttributes
 											value="ace_medical_treatment_locationsurgicalkit";
 										};
 									};
+									class Item75
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="ace_repair_miscrepairrequireditems";
+										};
+									};
+									class Item76
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="ace_repair_fullrepairrequireditems";
+										};
+									};
 								};
 							};
 						};
@@ -1421,7 +1449,7 @@ class CustomAttributes
 								};
 								class value
 								{
-									items=75;
+									items=77;
 									class Item0
 									{
 										class data
@@ -4778,6 +4806,112 @@ class CustomAttributes
 															};
 														};
 														value=0;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item75
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"ARRAY"
+												};
+											};
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"ARRAY"
+															};
+														};
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item76
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"ARRAY"
+												};
+											};
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"ARRAY"
+															};
+														};
+														class value
+														{
+															items=1;
+															class Item0
+															{
+																class data
+																{
+																	class type
+																	{
+																		type[]=
+																		{
+																			"STRING"
+																		};
+																	};
+																	value="ToolKit";
+																};
+															};
+														};
 													};
 												};
 												class Item1
@@ -8607,6 +8741,7 @@ class Mission
 					};
 					id=85;
 					type="I_Soldier_TL_F";
+					atlOffset=9.5367432e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -8910,6 +9045,7 @@ class Mission
 			{
 			};
 			id=84;
+			atlOffset=9.5367432e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -10793,6 +10929,29 @@ class Mission
 			};
 			id=338;
 			type="RDS_Lada_Civ_03";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_repair_editorLoadedWheels";
+					expression="_this setVariable ['ace_repair_editorLoadedWheels',_value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=4;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item42
 		{
@@ -10810,6 +10969,29 @@ class Mission
 			};
 			id=339;
 			type="RDS_Lada_Civ_03";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_repair_editorLoadedWheels";
+					expression="_this setVariable ['ace_repair_editorLoadedWheels',_value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=4;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item43
 		{
@@ -10827,14 +11009,37 @@ class Mission
 			};
 			id=340;
 			type="RDS_Lada_Civ_03";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_repair_editorLoadedWheels";
+					expression="_this setVariable ['ace_repair_editorLoadedWheels',_value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=4;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item44
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={7923.0581,134.51727,3418.0625};
-				angles[]={0.047464538,6.1153822,6.2806959};
+				position[]={7923.0581,134.51764,3418.0627};
+				angles[]={0.047472958,6.1153889,6.2806892};
 			};
 			side="Empty";
 			flags=4;
@@ -10844,7 +11049,30 @@ class Mission
 			};
 			id=341;
 			type="RDS_Lada_Civ_03";
-			atlOffset=-0.001373291;
+			atlOffset=-0.00099182129;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_repair_editorLoadedWheels";
+					expression="_this setVariable ['ace_repair_editorLoadedWheels',_value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=4;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item45
 		{
@@ -10863,6 +11091,29 @@ class Mission
 			id=342;
 			type="RDS_Lada_Civ_03";
 			atlOffset=-1.5258789e-005;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_repair_editorLoadedWheels";
+					expression="_this setVariable ['ace_repair_editorLoadedWheels',_value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=4;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item46
 		{
@@ -10903,6 +11154,29 @@ class Mission
 			id=345;
 			type="RDS_Lada_Civ_01";
 			atlOffset=0.028465271;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_repair_editorLoadedWheels";
+					expression="_this setVariable ['ace_repair_editorLoadedWheels',_value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=4;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item49
 		{
@@ -10920,6 +11194,29 @@ class Mission
 			id=346;
 			type="RDS_Lada_Civ_01";
 			atlOffset=0.36462975;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_repair_editorLoadedWheels";
+					expression="_this setVariable ['ace_repair_editorLoadedWheels',_value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=4;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item50
 		{
@@ -10937,6 +11234,29 @@ class Mission
 			id=347;
 			type="RDS_Lada_Civ_01";
 			atlOffset=0.36272812;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_repair_editorLoadedWheels";
+					expression="_this setVariable ['ace_repair_editorLoadedWheels',_value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=4;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item51
 		{
@@ -10944,7 +11264,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={468.99579,19.902998,3258.3311};
-				angles[]={6.1785688,1.8389834,0.074860021};
+				angles[]={6.1785688,2.0562575,0.074860021};
 			};
 			side="Empty";
 			flags=4;
@@ -10955,6 +11275,29 @@ class Mission
 			id=348;
 			type="RDS_Lada_Civ_01";
 			atlOffset=-0.0015296936;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_repair_editorLoadedWheels";
+					expression="_this setVariable ['ace_repair_editorLoadedWheels',_value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=4;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item52
 		{
@@ -10973,6 +11316,29 @@ class Mission
 			id=349;
 			type="RDS_Lada_Civ_01";
 			atlOffset=-0.0028476715;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_repair_editorLoadedWheels";
+					expression="_this setVariable ['ace_repair_editorLoadedWheels',_value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=4;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item53
 		{
@@ -10990,6 +11356,29 @@ class Mission
 			id=350;
 			type="RDS_Lada_Civ_01";
 			atlOffset=0.36426353;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_repair_editorLoadedWheels";
+					expression="_this setVariable ['ace_repair_editorLoadedWheels',_value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=4;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item54
 		{
@@ -11019,6 +11408,29 @@ class Mission
 			};
 			id=352;
 			type="RDS_Gaz24_Civ_02";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_repair_editorLoadedWheels";
+					expression="_this setVariable ['ace_repair_editorLoadedWheels',_value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=4;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item56
 		{
@@ -11036,6 +11448,29 @@ class Mission
 			};
 			id=353;
 			type="RDS_Gaz24_Civ_02";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_repair_editorLoadedWheels";
+					expression="_this setVariable ['ace_repair_editorLoadedWheels',_value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=4;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item57
 		{
@@ -11054,6 +11489,29 @@ class Mission
 			id=354;
 			type="RDS_Gaz24_Civ_02";
 			atlOffset=9.5367432e-007;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_repair_editorLoadedWheels";
+					expression="_this setVariable ['ace_repair_editorLoadedWheels',_value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=4;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item58
 		{
@@ -11071,6 +11529,29 @@ class Mission
 			};
 			id=355;
 			type="RDS_Gaz24_Civ_02";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_repair_editorLoadedWheels";
+					expression="_this setVariable ['ace_repair_editorLoadedWheels',_value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=4;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item59
 		{
@@ -11089,6 +11570,29 @@ class Mission
 			id=356;
 			type="RDS_Gaz24_Civ_02";
 			atlOffset=-9.5367432e-007;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_repair_editorLoadedWheels";
+					expression="_this setVariable ['ace_repair_editorLoadedWheels',_value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=4;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item60
 		{
@@ -11106,6 +11610,29 @@ class Mission
 			};
 			id=357;
 			type="RDS_Gaz24_Civ_02";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_repair_editorLoadedWheels";
+					expression="_this setVariable ['ace_repair_editorLoadedWheels',_value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=4;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item61
 		{
@@ -12637,6 +13164,29 @@ class Mission
 			id=392;
 			type="RDS_Lada_Civ_03";
 			atlOffset=-1.5258789e-005;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_repair_editorLoadedWheels";
+					expression="_this setVariable ['ace_repair_editorLoadedWheels',_value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=4;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item84
 		{

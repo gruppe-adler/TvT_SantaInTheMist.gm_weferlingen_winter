@@ -29,6 +29,7 @@ class mitm_common {
         class getSideColor {};
         class getSideName {};
         class getVectorAngle {};
+        class handleDamageVehicle;
         class isCourier {};
         class nearestCoast {};
         class projectile {};
