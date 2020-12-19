@@ -1,6 +1,15 @@
 class mitm_common {
     class common {
         class addToZeus {};
+        class animDance {};
+        class animDanceStart {};
+        class animDanceEnd {};
+        class animDance2;
+        class animRelax {};
+        class animRelaxEnd {};
+        class animSquat {};
+        class animSquatStart {};
+        class animSquatEnd {};
         class clearMarkerCategory {};
         class createCategoryMarker {};
         class createTrigger {};
@@ -24,7 +33,6 @@ class mitm_common {
         class nearestCoast {};
         class projectile {};
         class promptAdminResponse {};
-        class squat {};
         class stopAnimation {};
         class suppress {};
         class taskPatrol {};

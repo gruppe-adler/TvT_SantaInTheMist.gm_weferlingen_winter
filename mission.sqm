@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={7931.9141,143.31685,3419.7705};
-		dir[]={-0.23719455,-0.53697509,-0.80957919};
-		up[]={-0.15098159,0.84359461,-0.51531988};
-		aside[]={-0.95966977,-2.2776658e-007,0.28116816};
+		pos[]={4183.0903,10.893507,3970.4092};
+		dir[]={-0.29552951,-0.4503614,-0.84252292};
+		up[]={-0.14906837,0.89284611,-0.42497712};
+		aside[]={-0.94363767,-1.7846469e-007,0.33099589};
 	};
 };
 binarizationWanted=0;
@@ -7978,10 +7978,10 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={3937.4783,15.347549,6631.6699};
+						position[]={3937.4783,12.740626,6631.6699};
 					};
 					side="Independent";
-					flags=3;
+					flags=7;
 					class Attributes
 					{
 						description="Squad Leader@Alpha";
@@ -7989,7 +7989,6 @@ class Mission
 					};
 					id=76;
 					type="I_Soldier_SL_F";
-					atlOffset=2.6069231;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -8057,10 +8056,10 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={3935.5383,14.31496,6629.875};
+						position[]={3935.5383,12.711665,6629.875};
 					};
 					side="Independent";
-					flags=1;
+					flags=5;
 					class Attributes
 					{
 						description="Ass. Squad Leader@Alpha";
@@ -8068,7 +8067,6 @@ class Mission
 					};
 					id=77;
 					type="I_Soldier_SL_F";
-					atlOffset=1.6032944;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -8136,10 +8134,10 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={3939.6194,15.088923,6629.7119};
+						position[]={3939.6194,12.746895,6629.7119};
 					};
 					side="Independent";
-					flags=1;
+					flags=5;
 					class Attributes
 					{
 						description="Squad Medic@Alpha";
@@ -8147,7 +8145,6 @@ class Mission
 					};
 					id=78;
 					type="I_medic_F";
-					atlOffset=2.3420286;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -8215,7 +8212,6 @@ class Mission
 			{
 			};
 			id=75;
-			atlOffset=2.6069231;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -8252,10 +8248,10 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={3943.5593,15.159691,6627.7559};
+						position[]={3943.5593,12.767399,6627.7559};
 					};
 					side="Independent";
-					flags=3;
+					flags=7;
 					class Attributes
 					{
 						description="Team Leader@Alpha-1";
@@ -8263,7 +8259,6 @@ class Mission
 					};
 					id=80;
 					type="I_Soldier_TL_F";
-					atlOffset=2.392292;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -8331,10 +8326,10 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={3941.6252,14.021492,6625.6465};
+						position[]={3941.6252,12.745675,6625.6465};
 					};
 					side="Independent";
-					flags=1;
+					flags=5;
 					class Attributes
 					{
 						description="Autorifleman@Alpha-1";
@@ -8342,7 +8337,6 @@ class Mission
 					};
 					id=81;
 					type="I_Soldier_AR_F";
-					atlOffset=1.2758169;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -8410,10 +8404,10 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={3943.5854,14.398636,6625.6924};
+						position[]={3943.5854,12.762437,6625.6924};
 					};
 					side="Independent";
-					flags=1;
+					flags=5;
 					class Attributes
 					{
 						description="Ass. Autorifleman@Alpha-1";
@@ -8421,7 +8415,6 @@ class Mission
 					};
 					id=82;
 					type="I_Soldier_AAR_F";
-					atlOffset=1.636199;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -8489,10 +8482,10 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={3945.5884,14.721352,6625.6143};
+						position[]={3945.5884,12.769321,6625.6143};
 					};
 					side="Independent";
-					flags=1;
+					flags=5;
 					class Attributes
 					{
 						description="Rifleman@Alpha-1";
@@ -8500,7 +8493,6 @@ class Mission
 					};
 					id=83;
 					type="I_soldier_F";
-					atlOffset=1.9520302;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -8568,7 +8560,6 @@ class Mission
 			{
 			};
 			id=79;
-			atlOffset=2.392292;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -8605,10 +8596,10 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={3937.4915,13.125156,6625.5957};
+						position[]={3937.4915,12.706491,6625.5957};
 					};
 					side="Independent";
-					flags=3;
+					flags=7;
 					class Attributes
 					{
 						description="Team Leader@Alpha-2";
@@ -8616,7 +8607,6 @@ class Mission
 					};
 					id=85;
 					type="I_Soldier_TL_F";
-					atlOffset=0.41866589;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -8684,7 +8674,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={3939.5864,12.716898,6623.4746};
+						position[]={3939.5864,12.716899,6623.4746};
 					};
 					side="Independent";
 					flags=5;
@@ -8695,7 +8685,6 @@ class Mission
 					};
 					id=88;
 					type="I_soldier_F";
-					atlOffset=-9.5367432e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -8763,7 +8752,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={3935.4995,12.687622,6623.5244};
+						position[]={3935.4995,12.687623,6623.5244};
 						angles[]={6.2806959,0,0.0049914722};
 					};
 					side="Independent";
@@ -8775,7 +8764,6 @@ class Mission
 					};
 					id=145;
 					type="I_soldier_F";
-					atlOffset=-9.5367432e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -8922,7 +8910,6 @@ class Mission
 			{
 			};
 			id=84;
-			atlOffset=0.41866589;
 			class CustomAttributes
 			{
 				class Attribute0
