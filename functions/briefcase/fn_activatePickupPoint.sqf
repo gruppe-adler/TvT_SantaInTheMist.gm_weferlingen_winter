@@ -24,7 +24,7 @@ private _civDeliverTaskStatus = ["CANCELED","AUTOASSIGNED"] select (_side == CIV
 private _reclaimTask = MITM_SETUP_TASKSNAMESPACE getVariable ["reclaim",""];
 if (_side == SIDEUNKNOWN) then {
     if (_reclaimTask == "") then {
-        _task = [CIVILIAN,"mitm_reclaim_" + (str CIVILIAN),["You lost the briefcase. Get it back.","Pick up Briefcase",""],missionNamespace getVariable ["mitm_briefcase",objNull],"ASSIGNED",5,true,"default"] call BIS_fnc_taskCreate;
+        _task = [CIVILIAN,"mitm_reclaim_" + (str CIVILIAN),["You lost the sack. Get it back.","Pick up Sack",""],missionNamespace getVariable ["mitm_briefcase",objNull],"ASSIGNED",5,true,"default"] call BIS_fnc_taskCreate;
         MITM_SETUP_TASKSNAMESPACE setVariable ["reclaim",_task];
     } else {
         [_reclaimTask,"ASSIGNED",false] call BIS_fnc_taskSetState;

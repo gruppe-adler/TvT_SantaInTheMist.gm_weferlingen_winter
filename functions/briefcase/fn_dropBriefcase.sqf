@@ -41,8 +41,8 @@ _briefcase attachTo [_unit,_offset,""]; */
 
 
 if (vehicle _unit != _unit) then {
-    ["mitm_notification",["BRIEFCASE","Your vehicle dropped the briefcase."]] remoteExec ["bis_fnc_showNotification",(crew vehicle _unit) - [_unit],false];
+    ["mitm_notification",["BRIEFCASE","Your vehicle dropped the Sack."]] remoteExec ["bis_fnc_showNotification",(crew vehicle _unit) - [_unit],false];
 };
 if (side _unit != CIVILIAN) then {
-    ["mitm_notification",["BRIEFCASE","You dropped the briefcase."]] remoteExec ["bis_fnc_showNotification",_unit,false];
+    ["mitm_notification",["BRIEFCASE","You dropped the Sack."]] remoteExec ["bis_fnc_showNotification",_unit,false];
 };
