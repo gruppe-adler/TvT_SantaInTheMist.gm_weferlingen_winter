@@ -10,3 +10,7 @@ player addEventHandler ["HandleRating",{0}];
 // raise radio range as we have only sw
 player setVariable ["tf_receivingDistanceMultiplicator", 8];
 player setVariable ["tf_sendingDistanceMultiplicator", 0.125];
+
+if ((side player) == east) then {
+	player addAction ["<t color='#FF0000'>cheeki breeki iv damke</t>", "functions\common\fn_squat.sqf"];
+}

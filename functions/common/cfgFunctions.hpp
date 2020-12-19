@@ -24,6 +24,7 @@ class mitm_common {
         class nearestCoast {};
         class projectile {};
         class promptAdminResponse {};
+        class squat {};
         class stopAnimation {};
         class suppress {};
         class taskPatrol {};
