@@ -17,6 +17,11 @@ _unit switchMove "Acts_Executioner_Squat_End";
 
     [{
         params ["_unit"];
+        _unit switchMove "";
+    }, [_unit], 1] call CBA_fnc_waitAndExecute;
+
+    [{
+        params ["_unit"];
         animationState _unit != toLower "Acts_Executioner_Squat_End"
     },{
         params ["_unit"];
