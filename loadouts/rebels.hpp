@@ -38,7 +38,7 @@ class rebels {
             "ACE_MapTools",
             "ACE_key_lockpick",
             "ACE_key_indp",
-            LIST_4("ACE_splint"),
+            LIST_2("ACE_splint"),
             LIST_1("ACE_salineIV"),
             "ACE_surgicalKit"
         };
@@ -49,8 +49,8 @@ class rebels {
             addItemsToVest[] = {
                 LIST_7("hlc_30Rnd_762x39_m_ak"),
                 LIST_2("rhs_mag_rdg2_white"),
-                LIST_2("rhs_mag_rgd5"),
-                LIST_4("ACE_splint")
+                LIST_4("ACE_splint"),
+                "rhs_mag_mk84"
             };
         };
 
@@ -59,7 +59,6 @@ class rebels {
             addVest = "LOP_6sh46";
             addItemsToVest[] = {
                 LIST_7("hlc_30Rnd_762x39_m_ak"),
-                LIST_2("rhs_mag_rgd5"),
                 LIST_1("rhs_mag_rdg2_white")
             };
             addItemsToBackpack[] = {
@@ -79,7 +78,7 @@ class rebels {
         //Combat Life Saver
         class medic_F: Soldier_F {
             vest = "rhs_6sh46";
-            addItemsToVest[] = {
+            addItemsToBackpack[] = {
                 LIST_15("ACE_fieldDressing"),
                 LIST_8("ACE_morphine"),
                 LIST_8("ACE_epinephrine"),
@@ -104,7 +103,6 @@ class rebels {
             addItemsToBackpack[] = {
                 LIST_7("hlc_30Rnd_762x39_m_ak"),
                 LIST_2("rhs_mag_rdg2_white"),
-                LIST_2("rhs_mag_rgd5"),
                 LIST_2("rhs_GRD40_White"),
                 LIST_2("rhs_GRD40_Red")
             };
