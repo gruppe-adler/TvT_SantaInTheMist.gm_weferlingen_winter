@@ -86,7 +86,8 @@ class mafia {
                 LIST_8("ACE_epinephrine"),
                 LIST_1("ACE_salineIV_500"),
                 LIST_1("ACE_salineIV_250"),
-                LIST_15("ACE_splint")
+                LIST_15("ACE_splint"),
+                LIST_5("hlc_30Rnd_762x39_m_ak")
             };
         };
 
