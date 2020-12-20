@@ -18,8 +18,8 @@ class courier {
             secondaryWeapon = "";
             secondaryWeaponMagazine = "";
 
-            handgunWeapon = "";
-            handgunWeaponMagazine = "";
+            handgunWeapon = "rhs_weap_pb_6p9";
+            handgunWeaponMagazine = "rhs_mag_9x18_8_57N181S";
 
             binoculars = "";
             map = "ItemMap";
@@ -35,7 +35,8 @@ class courier {
                 "ACE_epinephrine",
                 "ACE_Flashlight_KSF1",
                 "ACE_key_lockpick",
-                "ACE_MapTools"
+                "ACE_MapTools",
+                LIST_4("rhs_mag_9x18_8_57N181S")
             };
             addItemsToVest[] = {};
             addItemsToBackpack[] = {};
@@ -44,6 +45,8 @@ class courier {
     class Rank {
         class LIEUTENANT {
             uniform = "xmas_santa_uniform";
+            handgunWeapon = "";
+            handgunWeaponMagazine = "";
         };
     };
 };

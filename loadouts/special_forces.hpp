@@ -6,7 +6,7 @@ class special_forces_w {
         };
         vest = "V_BandollierB_rgr";
         backpack[] = {
-            "rhs_sidor"
+            "grad_kitbag_black"
         };
         headgear[] = {
             "rds_Woodlander_cap1",
@@ -30,38 +30,47 @@ class special_forces_w {
         radio = "tfar_anprc154";
         nvgoggles = "";
         addItemsToUniform[] = {
-            LIST_6("ACE_fieldDressing"),
-            LIST_4("ACE_morphine"),
+            
             "ACE_epinephrine",
             "ACE_Flashlight_KSF1",
             "ACE_MapTools",
             "ACE_key_lockpick",
-            "ACE_key_west",
-            LIST_2("ACE_splint"),
-            LIST_1("ACE_salineIV"),
-            "ACE_surgicalKit"
+            "ACE_key_east"
         };
     };
     class Type {
         //Rifleman
         class Soldier_F {
             addItemsToVest[] = {
-                LIST_7("hlc_30Rnd_762x39_m_ak"),
-                LIST_2("rhs_mag_rdg2_white"),
-                LIST_4("ACE_splint"),
+                LIST_3("hlc_30Rnd_762x39_m_ak"),
+                LIST_1("rhs_mag_rdg2_white"),
                 "rhs_mag_mk84"
+            };
+            addItemsToBackpack[] = {
+                LIST_3("hlc_30Rnd_762x39_m_ak"),
+                LIST_4("ACE_splint"),
+                LIST_6("ACE_fieldDressing"),
+                LIST_4("ACE_morphine"),
+                LIST_2("ACE_splint"),
+                LIST_1("ACE_salineIV"),
+                "ACE_surgicalKit" 
             };
         };
 
         //Asst. Autorifleman
         class soldier_AAR_F: Soldier_F {
-            addVest = "LOP_6sh46";
             addItemsToVest[] = {
-                LIST_7("hlc_30Rnd_762x39_m_ak"),
+                LIST_3("hlc_30Rnd_762x39_m_ak"),
                 LIST_1("rhs_mag_rdg2_white")
             };
             addItemsToBackpack[] = {
-                LIST_3("rhs_100Rnd_762x54mmR")
+                LIST_3("hlc_30Rnd_762x39_m_ak"),
+                LIST_1("rhs_100Rnd_762x54mmR"),
+                LIST_6("ACE_fieldDressing"),
+                LIST_4("ACE_morphine"),
+                LIST_2("ACE_splint"),
+                LIST_1("ACE_salineIV"),
+                "ACE_surgicalKit" 
             };
         };
 
@@ -69,14 +78,24 @@ class special_forces_w {
         class soldier_AR_F: Soldier_F {
             primaryWeapon = "rhs_weap_pkp";
             primaryWeaponMagazine = "rhs_100Rnd_762x54mmR";
+            addItemsToVest[] = {
+                LIST_1("rhs_100Rnd_762x54mmR")
+            };
             addItemsToBackpack[] = {
-                LIST_3("rhs_100Rnd_762x54mmR")
+                LIST_3("rhs_100Rnd_762x54mmR"),
+                LIST_6("ACE_fieldDressing"),
+                LIST_4("ACE_morphine"),
+                LIST_2("ACE_splint"),
+                LIST_1("ACE_salineIV"),
+                "ACE_surgicalKit" 
             };
         };
 
         //Combat Life Saver
         class medic_F: Soldier_F {
-            vest = "rhs_6sh46";
+            addItemsToVest[] = {
+                LIST_1("hlc_30Rnd_762x39_m_ak")
+            };
             addItemsToBackpack[] = {
                 LIST_15("ACE_fieldDressing"),
                 LIST_8("ACE_morphine"),
@@ -104,7 +123,12 @@ class special_forces_w {
                 LIST_7("hlc_30Rnd_762x39_m_ak"),
                 LIST_2("rhs_mag_rdg2_white"),
                 LIST_2("rhs_GRD40_White"),
-                LIST_2("rhs_GRD40_Red")
+                LIST_2("rhs_GRD40_Red"),
+                LIST_6("ACE_fieldDressing"),
+                LIST_4("ACE_morphine"),
+                LIST_2("ACE_splint"),
+                LIST_1("ACE_salineIV"),
+                "ACE_surgicalKit" 
             };
         };
 
