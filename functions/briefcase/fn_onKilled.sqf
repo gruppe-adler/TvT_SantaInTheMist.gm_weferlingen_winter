@@ -1,6 +1,7 @@
 #include "component.hpp"
 
-params ["_unit"];
+params ["_unit", "_killer", "_instigator", "_useEffects"];
+
 
 if !(_unit getVariable ["mitm_briefcase_hasBriefcase",false]) exitWith {};
 
