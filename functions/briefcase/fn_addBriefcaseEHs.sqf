@@ -10,7 +10,7 @@ if (!hasInterface) exitWith {};
     if (local _x) then {
         _x addEventhandler ["GetInMan",mitm_briefcase_fnc_onGetIn];
         _x addEventhandler ["GetOutMan",mitm_briefcase_fnc_onGetOut];
-        _x addEventhandler ["MPKilled",mitm_briefcase_fnc_onKilled];
+        _x addMPEventhandler ["MPKilled",mitm_briefcase_fnc_onKilled];
         _x addEventhandler ["AnimChanged",mitm_briefcase_fnc_onAnimChanged];
     };
 } forEach allUnits;
