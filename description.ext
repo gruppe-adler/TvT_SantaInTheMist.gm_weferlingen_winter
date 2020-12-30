@@ -72,7 +72,7 @@ class CfgFunctions {
 };
 
 class GRAD_Replay {
-    precision = 7;                                    // precision of replay, 5 means every 5 seconds one snapshot (number)
+    precision = 2;                                    // precision of replay, 5 means every 5 seconds one snapshot (number)
     trackedSides[] = {"west", "independent", "east", "civilian"};    // defines the sides that will be tracked (possible are "west", "east", "independant", "civilian") (array)
     stepsPerTick = 1;                                 // defines steps played back at once (number)
     trackedVehicles = 1;                              // defines if empty and AI steered vehicles will be tracked (0/1)
@@ -156,7 +156,7 @@ class CfgSFX
     {
         name = "music1";
         sounds[]={sfxsound};
-        sfxsound[]={"data\alliwant.ogg",5,1,150,1,1,1,1};
+        sfxsound[]={"data\alliwant.ogg",2,1,150,1,1,1,1};
         empty[]= {"",0,0,0,0,0,0,0};
     };
 
@@ -165,7 +165,7 @@ class CfgSFX
     {
         name = "music2";
         sounds[]={sfxsound};
-        sfxsound[]={"data\jb.ogg",5,1,150,1,1,1,1};
+        sfxsound[]={"data\jb.ogg",2,1,150,1,1,1,1};
         empty[]= {"",0,0,0,0,0,0,0};
     };
 
@@ -174,7 +174,7 @@ class CfgSFX
     {
         name = "music3";
         sounds[]={sfxsound};
-        sfxsound[]={"data\juljul2.ogg",5,1,150,1,1,1,1};
+        sfxsound[]={"data\juljul2.ogg",2,1,150,1,1,1,1};
         empty[]= {"",0,0,0,0,0,0,0};
     };
 
@@ -183,7 +183,7 @@ class CfgSFX
     {
         name = "music4";
         sounds[]={sfxsound};
-        sfxsound[]={"data\lastchr.ogg",5,1,150,1,1,1,1};
+        sfxsound[]={"data\lastchr.ogg",2,1,150,1,1,1,1};
         empty[]= {"",0,0,0,0,0,0,0};
     };
 
@@ -192,7 +192,7 @@ class CfgSFX
     {
         name = "music5";
         sounds[]={sfxsound};
-        sfxsound[]={"data\ohdu.ogg",5,1,150,1,1,1,1};
+        sfxsound[]={"data\ohdu.ogg",2,1,150,1,1,1,1};
         empty[]= {"",0,0,0,0,0,0,0};
     };
 
@@ -201,7 +201,7 @@ class CfgSFX
     {
         name = "music6";
         sounds[]={sfxsound};
-        sfxsound[]={"data\santababy2.ogg",5,1,150,1,1,1,1};
+        sfxsound[]={"data\santababy2.ogg",2,1,150,1,1,1,1};
         empty[]= {"",0,0,0,0,0,0,0};
     };
 
@@ -210,7 +210,7 @@ class CfgSFX
     {
         name = "music7";
         sounds[]={sfxsound};
-        sfxsound[]={"data\warover.ogg",5,1,150,1,1,1,1};
+        sfxsound[]={"data\warover.ogg",2,1,150,1,1,1,1};
         empty[]= {"",0,0,0,0,0,0,0};
     };
 };

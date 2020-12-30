@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=487;
+		nextID=490;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={479.47958,20.602896,3245.6462};
-		dir[]={0.52102458,-0.46951601,-0.71280801};
-		up[]={0.27706805,0.88292336,-0.37905347};
-		aside[]={-0.80732685,9.6391886e-008,-0.59011263};
+		pos[]={764.31744,89.352036,5108.9395};
+		dir[]={-0.06432236,-0.62903589,0.77471852};
+		up[]={-0.052048903,0.77737516,0.62688416};
+		aside[]={0.99657929,-4.4237822e-009,0.082744099};
 	};
 };
 binarizationWanted=0;
@@ -85,13 +85,15 @@ addons[]=
 	"A3_Structures_F_Enoch_Signs_Warnings",
 	"A3_Structures_F_Enoch_Decals_Horizontal",
 	"A3_Props_F_Enoch_Civilian_Forest",
-	"gm_plants_trees"
+	"gm_plants_trees",
+	"tfar_backpacks",
+	"tfar_handhelds"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=51;
+		items=53;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -437,6 +439,18 @@ class AddonsMetaData
 			name="gm_plants_trees";
 			author="Global Mobilization";
 			url="global-mobilization.com";
+		};
+		class Item51
+		{
+			className="tfar_backpacks";
+			name="tfar_backpacks";
+			url="https://github.com/michail-nikolaev/task-force-arma-3-radio";
+		};
+		class Item52
+		{
+			className="tfar_handhelds";
+			name="tfar_handhelds";
+			url="https://github.com/michail-nikolaev/task-force-arma-3-radio";
 		};
 	};
 };
@@ -4705,7 +4719,7 @@ class CustomAttributes
 																"SCALAR"
 															};
 														};
-														value=2;
+														value=7;
 													};
 												};
 												class Item1
@@ -4750,7 +4764,7 @@ class CustomAttributes
 																"SCALAR"
 															};
 														};
-														value=5;
+														value=1;
 													};
 												};
 												class Item1
@@ -6973,7 +6987,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=149;
+		items=152;
 		class Item0
 		{
 			dataType="Marker";
@@ -14097,13 +14111,14 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={4727.3247,9.3337002,1051.9264};
-				angles[]={5.819159,0,6.2580228};
+				position[]={6730.9741,14.293006,4511.791};
+				angles[]={0.057436496,0,0.15377627};
 			};
 			name="blufor_exfil";
 			init="call{[this, west] call mitm_template_fnc_createExfilPoint;}";
 			id=193;
 			type="Logic";
+			atlOffset=9.5367432e-007;
 		};
 		class Item28
 		{
@@ -14123,8 +14138,8 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={2297.6167,45.555225,7369.4312};
-				angles[]={0.0075011365,0,6.2806959};
+				position[]={6579.9487,25.156055,738.77496};
+				angles[]={6.255693,0,0.0050033992};
 			};
 			name="independent_exfil";
 			init="call{[this, independent] call mitm_template_fnc_createExfilPoint;}";
@@ -14149,13 +14164,13 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={6978.0601,39.978355,6928.353};
+				position[]={753.92804,39.245247,5185.5015};
 			};
 			name="opfor_exfil";
 			init="call{[this, east] call mitm_template_fnc_createExfilPoint;}";
 			id=197;
 			type="Logic";
-			atlOffset=0.58524323;
+			atlOffset=0.58524704;
 		};
 		class Item32
 		{
@@ -17812,7 +17827,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4727.3364,16.149921,1054.5059};
+				position[]={6730.9858,17.419403,4514.3706};
 			};
 			side="Empty";
 			flags=5;
@@ -17821,14 +17836,15 @@ class Mission
 			};
 			id=469;
 			type="land_gm_inset_lightchain_picea_01";
-			atlOffset=9.5367432e-007;
+			atlOffset=0.0053062439;
 		};
 		class Item132
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4727.3833,16.04582,1054.4546};
+				position[]={6731.0327,17.320494,4514.3188};
+				angles[]={0.10955941,0,0.10214365};
 			};
 			side="Empty";
 			flags=4;
@@ -17837,14 +17853,13 @@ class Mission
 			};
 			id=470;
 			type="gm_t_picea_abies_01_winter";
-			atlOffset=9.5367432e-007;
 		};
 		class Item133
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={6977.98,42.741959,6928.9248};
+				position[]={753.84796,41.998821,5186.0732};
 			};
 			side="Empty";
 			flags=5;
@@ -17853,14 +17868,14 @@ class Mission
 			};
 			id=471;
 			type="land_gm_inset_lightchain_picea_01";
+			atlOffset=7.6293945e-006;
 		};
 		class Item134
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={6978.0269,42.637665,6928.874};
-				angles[]={6.2631865,0,0.017500184};
+				position[]={753.89484,41.894718,5186.0225};
 			};
 			side="Empty";
 			flags=4;
@@ -17869,13 +17884,14 @@ class Mission
 			};
 			id=472;
 			type="gm_t_picea_abies_01_winter";
+			atlOffset=3.8146973e-006;
 		};
 		class Item135
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2298.2732,48.896347,7368.9043};
+				position[]={6580.6055,28.483664,738.24811};
 			};
 			side="Empty";
 			flags=5;
@@ -17890,8 +17906,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2298.3201,48.792515,7368.8535};
-				angles[]={0.0075011365,0,6.2806959};
+				position[]={6580.6523,28.378401,738.19733};
+				angles[]={6.255693,0,0.0050033992};
 			};
 			side="Empty";
 			flags=4;
@@ -18155,8 +18171,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2298.5496,45.554321,7369.1992};
-				angles[]={0.0075011365,3.1716297,6.2806959};
+				position[]={6580.8818,25.154119,738.54303};
+				angles[]={6.255693,3.1716297,0.0050033992};
 			};
 			side="Empty";
 			flags=4;
@@ -18196,8 +18212,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={6977.9463,39.391636,6928.3945};
-				angles[]={6.2631865,3.1716297,0.017500184};
+				position[]={753.81427,38.659389,5185.543};
+				angles[]={-0,3.1716297,0};
 			};
 			side="Empty";
 			flags=4;
@@ -18237,8 +18253,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4728.6982,8.640358,1059.3864};
-				angles[]={0.08726646,3.1716297,0.010000736};
+				position[]={6731.6421,13.962485,4516.0366};
+				angles[]={0.059927464,3.1716297,0.10214306};
 			};
 			side="Empty";
 			flags=4;
@@ -18249,7 +18265,6 @@ class Mission
 			};
 			id=486;
 			type="land_gm_euro_furniture_radio_01";
-			atlOffset=-9.5367432e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -18273,6 +18288,55 @@ class Mission
 				};
 				nAttributes=1;
 			};
+		};
+		class Item149
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={484.69946,18.962709,3248.5908};
+				angles[]={6.218277,0,0.06988623};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=487;
+			type="TFAR_IND_Radio_Crate";
+		};
+		class Item150
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={7926.4912,134.73009,3404.6211};
+				angles[]={0.12189404,0,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=488;
+			type="TFAR_EAST_Radio_Crate";
+		};
+		class Item151
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3934.51,12.976812,6628.0396};
+				angles[]={6.278194,0,0.0049914722};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=489;
+			type="TFAR_NATO_Radio_Crate";
+			atlOffset=2.8610229e-006;
 		};
 	};
 	class Connections

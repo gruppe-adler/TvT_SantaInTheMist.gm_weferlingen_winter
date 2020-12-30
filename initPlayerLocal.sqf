@@ -8,8 +8,8 @@ player addEventHandler ["HandleRating",{0}];
 /*player addEventHandler ["Take",{_this call uo_common_fnc_handleScopeChange}];*/
 
 // raise radio range as we have only sw
-player setVariable ["tf_receivingDistanceMultiplicator", 8];
-player setVariable ["tf_sendingDistanceMultiplicator", 0.125];
+player setVariable ["tf_receivingDistanceMultiplicator", 1];
+player setVariable ["tf_sendingDistanceMultiplicator", 1];
 
 
 // CUSTOM ANIMATIONS
