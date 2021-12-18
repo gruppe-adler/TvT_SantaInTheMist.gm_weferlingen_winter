@@ -19,10 +19,9 @@ class mafia {
             ""
         };
         primaryWeapon[] = {
-            "rhs_weap_akm",
-            "rhs_weap_akms"
+            "rhs_weap_aks74u"
         };
-        primaryWeaponMagazine = "hlc_30Rnd_762x39_m_ak";
+        primaryWeaponMagazine = "rhs_30Rnd_545x39_7N6M_AK";
 
         binoculars = "Binocular";
         map = "ItemMap";
@@ -44,12 +43,12 @@ class mafia {
         //Rifleman
         class Soldier_F {
             addItemsToVest[] = {
-                LIST_3("hlc_30Rnd_762x39_m_ak"),
+                LIST_3("rhs_30Rnd_545x39_7N6M_AK"),
                 LIST_1("rhs_mag_rdg2_white"),
                 "rhs_mag_mk84"
             };
             addItemsToBackpack[] = {
-                LIST_3("hlc_30Rnd_762x39_m_ak"),
+                LIST_3("rhs_30Rnd_545x39_7N6M_AK"),
                 LIST_4("ACE_splint"),
                 LIST_6("ACE_fieldDressing"),
                 LIST_4("ACE_morphine"),
@@ -62,11 +61,11 @@ class mafia {
         //Asst. Autorifleman
         class soldier_AAR_F: Soldier_F {
             addItemsToVest[] = {
-                LIST_3("hlc_30Rnd_762x39_m_ak"),
+                LIST_3("rhs_30Rnd_545x39_7N6M_AK"),
                 LIST_1("rhs_mag_rdg2_white")
             };
             addItemsToBackpack[] = {
-                LIST_3("hlc_30Rnd_762x39_m_ak"),
+                LIST_3("rhs_30Rnd_545x39_7N6M_AK"),
                 LIST_1("rhs_100Rnd_762x54mmR"),
                 LIST_6("ACE_fieldDressing"),
                 LIST_4("ACE_morphine"),
@@ -96,7 +95,7 @@ class mafia {
         //Combat Life Saver
         class medic_F: Soldier_F {
             addItemsToVest[] = {
-                LIST_1("hlc_30Rnd_762x39_m_ak")
+                LIST_1("rhs_30Rnd_545x39_7N6M_AK")
             };
             addItemsToBackpack[] = {
                 LIST_15("ACE_fieldDressing"),
@@ -105,7 +104,7 @@ class mafia {
                 LIST_1("ACE_salineIV_500"),
                 LIST_1("ACE_salineIV_250"),
                 LIST_15("ACE_splint"),
-                LIST_5("hlc_30Rnd_762x39_m_ak")
+                LIST_5("rhs_30Rnd_545x39_7N6M_AK")
             };
         };
 
@@ -117,12 +116,11 @@ class mafia {
         //Squad Leader
         class Soldier_SL_F: Soldier_F {
             primaryWeapon[] = {
-                "rhs_weap_akm_gp25",
-                "rhs_weap_akms_gp25"
+                "rhs_weap_aks74n_gp25"
             };
             primaryWeaponUnderbarrelMagazine = "rhs_GRD40_White";
             addItemsToBackpack[] = {
-                LIST_7("hlc_30Rnd_762x39_m_ak"),
+                LIST_7("rhs_30Rnd_545x39_7N6M_AK"),
                 LIST_2("rhs_mag_rdg2_white"),
                 LIST_2("rhs_GRD40_White"),
                 LIST_2("rhs_GRD40_Red"),
