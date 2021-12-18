@@ -18,8 +18,7 @@ class rebels {
             ""
         };
         primaryWeapon[] = {
-            "rhs_weap_akm",
-            "rhs_weap_akms"
+            "rhs_weap_aks74u"
         };
         primaryWeaponMagazine = "rhs_30Rnd_545x39_7N6M_AK";
 

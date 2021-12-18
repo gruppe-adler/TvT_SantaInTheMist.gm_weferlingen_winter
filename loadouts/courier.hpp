@@ -47,6 +47,16 @@ class courier {
             uniform = "xmas_santa_uniform";
             handgunWeapon = "";
             handgunWeaponMagazine = "";
+
+            addItemsToUniform[] = {
+                LIST_6("ACE_fieldDressing"),
+                LIST_4("ACE_morphine"),
+                "ACE_epinephrine",
+                "ACE_Flashlight_KSF1",
+                "ACE_key_lockpick",
+                "ACE_MapTools",
+                LIST_4("xmas_explosive_present")
+            };
         };
     };
 };

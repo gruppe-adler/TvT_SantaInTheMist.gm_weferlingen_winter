@@ -6,7 +6,7 @@ class special_forces_w {
         };
         vest = "V_BandollierB_rgr";
         backpack[] = {
-            "grad_kitbag_black"
+            "B_FieldPack_blk"
         };
         headgear[] = {
             "rds_Woodlander_cap1",
@@ -18,8 +18,7 @@ class special_forces_w {
             ""
         };
         primaryWeapon[] = {
-            "rhs_weap_akm",
-            "rhs_weap_akms"
+            "rhs_weap_aks74u"
         };
         primaryWeaponMagazine = "rhs_30Rnd_545x39_7N6M_AK";
         binoculars = "Binocular";
