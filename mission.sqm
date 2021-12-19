@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=582;
+		nextID=608;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={4793.5786,121.133,14646.976};
-		dir[]={0.53368449,-0.55152375,0.64110065};
-		up[]={0.35285655,0.83415926,0.42387739};
-		aside[]={0.76855791,-1.2724195e-007,-0.63978553};
+		pos[]={4786.9116,124.73256,14620.998};
+		dir[]={0.6166321,-0.58302706,0.52903628};
+		up[]={0.44249701,0.81244302,0.37963781};
+		aside[]={0.65115225,-1.4260877e-007,-0.75896728};
 	};
 };
 binarizationWanted=0;
@@ -15677,6 +15677,7 @@ class Mission
 			};
 			id=374;
 			type="MetalBarrel_burning_F";
+			atlOffset=-0.00016784668;
 		};
 		class Item53
 		{
@@ -17763,8 +17764,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4796.5898,111.96501,14635.271};
-				angles[]={0,1.4741749,0};
+				position[]={4796.0239,111.9632,14635.041};
+				angles[]={0.006835951,1.4741749,0.0059702331};
 			};
 			side="Empty";
 			flags=4;
@@ -17775,7 +17776,6 @@ class Mission
 			};
 			id=524;
 			type="vn_c_car_04_01";
-			atlOffset=7.6293945e-006;
 			class CustomAttributes
 			{
 				class Attribute0

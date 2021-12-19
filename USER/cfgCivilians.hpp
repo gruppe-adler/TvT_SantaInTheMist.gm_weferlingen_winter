@@ -63,58 +63,36 @@ class cfgCivilians {
         };
 
         vehicles[] = {
-            "RDS_Gaz24_Civ_03",
-            "RDS_Gaz24_Civ_01",
-            "RDS_Gaz24_Civ_02",
-            "RDS_Lada_Civ_01",
-            "RDS_Lada_Civ_03",
-            "RDS_Lada_Civ_02"
+            "gm_gc_civ_p601",
+            "vn_c_wheeled_m151_02",
+            "vn_c_bicycle_01"
         };
     };
 
     class russian {
         clothes[] = {
-            "rds_uniform_citizen1",
-            "rds_uniform_citizen2",
-            "rds_uniform_citizen3",
-            "rds_uniform_citizen4",
-            "rds_uniform_Functionary1",
-            "rds_uniform_Profiteer1",
-            "rds_uniform_Profiteer2",
-            "rds_uniform_Profiteer3",
-            "rds_uniform_Profiteer4",
-            "rds_uniform_Rocker2",
-            "rds_uniform_schoolteacher",
-            "rds_uniform_Villager1",
-            "rds_uniform_Villager2",
-            "rds_uniform_Villager3",
-            "rds_uniform_Villager4",
-            "rds_uniform_Woodlander1",
-            "rds_uniform_Woodlander2",
-            "rds_uniform_Woodlander3",
-            "rds_uniform_Woodlander4",
-            "rds_uniform_Worker1",
-            "rds_uniform_Worker2",
-            "rds_uniform_Worker3",
-            "rds_uniform_Worker4"
+            "gm_ge_civ_uniform_blouse_80_gry",
+            "gm_gc_civ_uniform_man_04_80_gry",
+            "U_NikosAgedBody",
+            "gm_gc_civ_uniform_man_01_80_blk",
+            "U_C_FormalSuit_01_tshirt_black_F",
+            "U_C_FormalSuit_01_khaki_F",
+            "U_C_FormalSuit_01_blue_F",
+            "U_I_E_ParadeUniform_01_LDF_F"
         };
 
         headgear[] = {
-            "rds_Profiteer_cap4",
-            "rds_Profiteer_cap2",
-            "rds_Woodlander_cap1",
-            "rds_Woodlander_cap3",
-            "rds_Villager_cap1",
-            "rds_Villager_cap4",
-            "rds_worker_cap3",
-            "rds_worker_cap4",
-
             "H_Cap_blk",
             "H_Cap_grn",
             "H_Cap_red",
             "H_Hat_blue",
             "H_Hat_brown",
-            "H_Hat_grey"
+            "H_Hat_grey",
+            "",
+            "",
+            "",
+            "",
+            ""
         };
 
         faces[] = {
@@ -135,25 +113,24 @@ class cfgCivilians {
 
         goggles[] = {
             "G_Aviator",
-            "G_Shades_Black",
-            "G_Shades_Green",
             "G_Spectacles",
-            "G_Sport_Blackred",
-            "G_Squares_Tinted",
-            "G_Spectacles_Tinted"
+            "",
+            "",
+            "",
+            "",
+            ""
         };
 
         backpacks[] = {
-            "rhs_sidor"
+            "rhs_sidor",
+            "",
+            ""
         };
 
         vehicles[] = {
-            "RDS_Gaz24_Civ_03",
-            "RDS_Gaz24_Civ_01",
-            "RDS_Gaz24_Civ_02",
-            "RDS_Lada_Civ_01",
-            "RDS_Lada_Civ_03",
-            "RDS_Lada_Civ_02"
+            "gm_gc_civ_p601",
+            "vn_c_wheeled_m151_02",
+            "vn_c_bicycle_01"
         };
     };
 
@@ -197,29 +174,9 @@ class cfgCivilians {
         };
 
         vehicles[] = {
-            "C_Van_01_fuel_F",
-            "C_Hatchback_01_F",
-            "C_Truck_02_transport_F",
-            "C_Truck_02_covered_F",
-            "C_Offroad_01_F",
-            "C_Offroad_01_repair_F",
-            "C_Quadbike_01_F",
-            "C_Van_01_transport_F",
-            "RDS_Gaz24_Civ_03",
-            "RDS_Gaz24_Civ_01",
-            "RDS_Gaz24_Civ_02",
-            "RDS_S1203_Civ_01",
-            "RDS_Zetor6945_Base",
-            "RDS_Lada_Civ_01",
-            "RDS_Lada_Civ_03",
-            "RDS_Lada_Civ_02",
-            "RDS_tt650_Civ_01",
-            "RDS_JAWA353_Civ_01",
-            "RHS_Ural_Civ_01",
-            "RHS_Ural_Open_Civ_02",
-            "LOP_TAK_Civ_Landrover",
-            "LOP_TAK_Civ_UAZ",
-            "LOP_TAK_Civ_UAZ_Open"
+            "gm_gc_civ_p601",
+            "vn_c_wheeled_m151_02",
+            "vn_c_bicycle_01"
         };
     };
 
@@ -291,27 +248,9 @@ class cfgCivilians {
         };
 
         vehicles[] = {
-            "C_Van_01_fuel_F",
-            "C_Hatchback_01_F",
-            "C_Truck_02_transport_F",
-            "C_Truck_02_covered_F",
-            "C_Offroad_01_F",
-            "C_Offroad_01_repair_F",
-            "C_Quadbike_01_F",
-            "C_Van_01_transport_F",
-            "RDS_Gaz24_Civ_03",
-            "RDS_Gaz24_Civ_01",
-            "RDS_Gaz24_Civ_02",
-            "RDS_S1203_Civ_01",
-            "RDS_Zetor6945_Base",
-            "RDS_Lada_Civ_01",
-            "RDS_Lada_Civ_03",
-            "RDS_Lada_Civ_02",
-            "RDS_tt650_Civ_01",
-            "RDS_JAWA353_Civ_01",
-            "RHS_Ural_Civ_01",
-            "RHS_Ural_Open_Civ_02",
-            "C_Offroad_02_unarmed_F"
+            "gm_gc_civ_p601",
+            "vn_c_wheeled_m151_02",
+            "vn_c_bicycle_01"
         };
     };
 };

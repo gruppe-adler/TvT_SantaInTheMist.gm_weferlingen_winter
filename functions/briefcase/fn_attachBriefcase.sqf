@@ -23,8 +23,49 @@ if (_vehicleMode) then {
              _briefcase attachTo [_vehicle,[-0.0800781,0.290039,0.36]];
              _briefcase setVectorDirAndUp ([[vectorDirVisual _vehicle, vectorUpVisual _vehicle], 0, 90, 0] call BIS_fnc_transformVectorDirAndUp);
         } else {
-            // fallback
-            _briefcase attachTo [_vehicle,[0,0,-100]];
+
+            if (_vehicle isKindOf "vn_c_car_04_01") then {
+                _briefcase attachTo [_vehicle,[0.30423,-0.963867,-0.201187]];
+                _briefcase setVectorDirAndUp ([[vectorDirVisual _vehicle, vectorUpVisual _vehicle], 0, 90, 0] call BIS_fnc_transformVectorDirAndUp);
+            } else {
+                 if (_vehicle isKindOf "vn_c_car_02_01") then {
+                    _briefcase attachTo [_vehicle,[0.128906,-0.259508,0.442696]];
+                    _briefcase setVectorDirAndUp ([[vectorDirVisual _vehicle, vectorUpVisual _vehicle], 0, 90, 0] call BIS_fnc_transformVectorDirAndUp);
+                } else {
+                    if (_vehicle isKindOf "vn_c_car_01_01") then {
+                        _briefcase attachTo [_vehicle,[-0.113281,-0.183023,0.538269]];
+                        _briefcase setVectorDirAndUp ([[vectorDirVisual _vehicle, vectorUpVisual _vehicle], 0, 90, 0] call BIS_fnc_transformVectorDirAndUp);
+                    } else {
+                        if (_vehicle isKindOf "vn_c_car_03_01") then {
+                            _briefcase attachTo [_vehicle,[0.00439453,-0.375503,0.383415]];
+                            _briefcase setVectorDirAndUp ([[vectorDirVisual _vehicle, vectorUpVisual _vehicle], 0, 90, 0] call BIS_fnc_transformVectorDirAndUp);
+                        } else {
+                            if (_vehicle isKindOf "vn_c_bicycle_01") then {
+                                _briefcase attachTo [_vehicle,[-1.66357,-1.91077,-0.0656738]];
+                                _briefcase setVectorDirAndUp ([[vectorDirVisual _vehicle, vectorUpVisual _vehicle], 0, 90, 0] call BIS_fnc_transformVectorDirAndUp);
+                            } else {
+                                if (_vehicle isKindOf "gm_gc_civ_p601") then {
+                                    _briefcase attachTo [_vehicle,[-0.139648,-0.258698,0.343185]];
+                                    _briefcase setVectorDirAndUp ([[vectorDirVisual _vehicle, vectorUpVisual _vehicle], 0, 90, 0] call BIS_fnc_transformVectorDirAndUp);
+                                } else {
+                                     if (_vehicle isKindOf "vn_c_wheeled_m151_02") then {
+                                        _briefcase attachTo [_vehicle,[0.0898438,-0.540636,0.577072]];
+                                        _briefcase setVectorDirAndUp ([[vectorDirVisual _vehicle, vectorUpVisual _vehicle], 0, 90, 0] call BIS_fnc_transformVectorDirAndUp);
+                                    } else {
+                                        if (_vehicle isKindOf "vn_c_wheeled_m151_01") then {
+                                            _briefcase attachTo [_vehicle,[0.123535,-0.563399,-0.466034]];
+                                            _briefcase setVectorDirAndUp ([[vectorDirVisual _vehicle, vectorUpVisual _vehicle], 0, 90, 0] call BIS_fnc_transformVectorDirAndUp);
+                                        } else {
+                                            // fallback
+                                            _briefcase attachTo [_vehicle,[0,0,-100]];
+                                        };
+                                    };
+                                };
+                            };
+                        };
+                    };
+                };
+            };
         };
     };
 

@@ -1,8 +1,7 @@
 class mafia {
     class AllUnits {
         uniform[] = {
-            "rds_uniform_Functionary1",
-            "rds_uniform_Functionary2"
+            "gm_gc_army_uniform_dress_80_gry"
         };
         vest[] = {
             "rhsgref_chicom"

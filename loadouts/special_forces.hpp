@@ -9,10 +9,7 @@ class special_forces_w {
             "B_FieldPack_blk"
         };
         headgear[] = {
-            "rds_Woodlander_cap1",
-            "rds_Woodlander_cap2",
-            "rds_Woodlander_cap3",
-            "rds_Woodlander_cap4"
+            "H_Cap_blk"
         };
         goggles[] = {
             ""
