@@ -41,7 +41,7 @@ if (_vehicleMode) then {
                             _briefcase setVectorDirAndUp ([[vectorDirVisual _vehicle, vectorUpVisual _vehicle], 0, 90, 0] call BIS_fnc_transformVectorDirAndUp);
                         } else {
                             if (_vehicle isKindOf "vn_c_bicycle_01") then {
-                                _briefcase attachTo [_vehicle,[-1.66357,-1.91077,-0.0656738]];
+                                _briefcase attachTo [_vehicle,[0,-0.51077,-0.3]];
                                 _briefcase setVectorDirAndUp ([[vectorDirVisual _vehicle, vectorUpVisual _vehicle], 0, 90, 0] call BIS_fnc_transformVectorDirAndUp);
                             } else {
                                 if (_vehicle isKindOf "gm_gc_civ_p601") then {

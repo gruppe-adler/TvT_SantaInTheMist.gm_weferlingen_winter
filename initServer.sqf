@@ -6,3 +6,5 @@
 
 // manually overriding weather
 0 setFog 0.8;
+
+0 setRain 0;
